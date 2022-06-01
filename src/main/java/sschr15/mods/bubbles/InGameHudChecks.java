@@ -15,6 +15,12 @@ public class InGameHudChecks {
         }
         //endregion
 
+        //region: Conduit power
+        if (player.hasStatusEffect(StatusEffects.CONDUIT_POWER)) {
+            return false; // Never show air bar if the player has conduit power
+        }
+        //endregion
+
         //region: Origins
         try {
             Class.forName("io.github.apace100.origins.power.OriginsPowerTypes");
