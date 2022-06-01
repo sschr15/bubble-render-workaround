@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bubble-render-workaround",
+  "version": "${version}",
+
+  "name": "Bubble Render Workaround",
+  "description": "Changes bubble behavior to not render under certain conditions",
+  "authors": [
+    "sschr15"
+  ],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/bubbles/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "bubbles.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "*",
+    "java": ">=17"
+  }
+}
